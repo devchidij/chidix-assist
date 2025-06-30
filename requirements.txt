@@ -1,4 +1,33 @@
+# Web framework
 flask
-requests
+flask_socketio
+
+# Async support for WebSockets
+eventlet
+
+# OCR and image processing
 pytesseract
 opencv-python
+Pillow
+
+# Speech recognition (for ASR)
+SpeechRecognition
+pydub
+
+# Translation and API usage
+requests
+
+# CORS support (optional, for frontend/backend communication)
+flask-cors
+
+# WebRTC support (if needed for signaling logic)
+aiortc
+
+# Environment variable handling
+python-dotenv
+
+# Language translation libraries (optional)
+googletrans==4.0.0-rc1  # If using unofficial Google Translate wrapper
+
+# Database (if using SQLAlchemy or SQLite)
+SQLAlchemy
